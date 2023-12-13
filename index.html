@@ -9,7 +9,19 @@
 
 <body onload="initiate()">
   <div class="banner">
-    
+    <svg viewBox="0 0 960 300">
+      <symbol id="s-text">
+        <text text-anchor="middle" x="50%" y="80%">Merry Christmas!</text>
+      </symbol>
+  
+      <g class = "g-ants">
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+        <use xlink:href="#s-text" class="text-copy"></use>
+      </g>
+    </svg>
   </div>
   <div class="tree">
     <div class="t-tree">
@@ -19,6 +31,15 @@
     </div>
     <div class="l-tree"></div>
     <div class="r-tree"></div>
+    <div class="tree-root">
+      <div class="palette"></div>
+      <div>
+        <span style="--i:0;"></span>
+        <span style="--i:1;"></span>
+        <span style="--i:2;"></span>
+        <span style="--i:3;"></span>
+      </div>
+    </div>
   </div>
   </section>
 </body>
